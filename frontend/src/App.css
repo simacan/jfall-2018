@@ -1,0 +1,22 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.SendButtonWrapper {
+  height: calc(30vh - 5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.SendButton {
+  cursor: pointer;
+}
+
+.SendButton:hover {
+  background-color: #474747;
+}

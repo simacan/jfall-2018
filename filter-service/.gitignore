@@ -1,0 +1,12 @@
+# sbt specific
+.cache
+.lib/
+dist/*
+target/
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# IntelliJ specific
+.idea
+*.iml
